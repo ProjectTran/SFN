@@ -13,6 +13,10 @@ import SecondScreen from "../screens/SecondScreen";
 import About from "../screens/About";
 import Profile from "../screens/Profile";
 import Loading from "../screens/utils/Loading";
+
+//Added By Adithya
+import CropInfo from "../screens/CropInfo";
+
 // Auth screens
 import Login from "../screens/auth/Login";
 import Register from "../screens/auth/Register";
@@ -59,6 +63,10 @@ const Main = () => {
     >
       <MainStack.Screen name="MainTabs" component={MainTabs} />
       <MainStack.Screen name="SecondScreen" component={SecondScreen} />
+
+      {/* Added By Adithya */}
+      <MainStack.Screen name="CropInfo" component={CropInfo} />
+
     </MainStack.Navigator>
   );
 };
@@ -113,6 +121,9 @@ const MainTabs = () => {
           )
         }}
       />
+      
+
+
     </Tabs.Navigator>
   );
 };

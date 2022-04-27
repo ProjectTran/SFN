@@ -24,6 +24,7 @@ export default function ({ navigation }) {
         }
         leftAction={() => navigation.goBack()}
       />
+      
       <View
         style={{
           flex: 1,

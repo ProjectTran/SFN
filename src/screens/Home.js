@@ -44,6 +44,19 @@ export default function ({ navigation }) {
                 marginTop: 10,
               }}
             />
+
+            {/* Added By Adithya */}
+            <Button
+              text="Go to Crop Information Screen"
+              onPress={() => {
+                navigation.navigate("CropInfo");
+              }}
+              style={{
+                marginTop: 10,
+              }}
+            />
+
+
             <Button
               status="danger"
               text="Logout"
